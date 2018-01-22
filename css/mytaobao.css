@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #eee;
+}
+html{
+    background: #eee!important;
+}
+#head{
+    width: 10rem;
+    height: 3.13275rem;
+    background: url("../image/mybg_03.gif")no-repeat;
+    background-size: contain;
+    position: relative;
+}
+div .user{
+    position: absolute;
+    bottom: -1rem;
+    left: .467rem;
+    width: 1.867rem;
+    height: 1.867rem;
+    text-align: center;
+    border-radius: 100%;
+    padding: 0.067rem;
+    background: rgba(255,255,255,.7);
+    overflow: hidden;
+}
+.user img{
+    width: 100%;
+    border-radius: 100%;
+}
+.message{
+    height: 1.44rem;
+    width: 10rem;
+    font-size: 0.35rem;
+    box-sizing: border-box;
+}
+.message ul{
+    position: relative;
+    top: 0.25837rem;
+    display: -webkit-box;
+    width: 10rem;
+    padding-left: 2.267rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+.message ul li{
+    width: 2.6775rem;
+    height: 0.95rem;
+    list-style: none;
+    border-left: 0.025rem solid #e7e7e7;
+}
+.message ul li:first-of-type{
+    border: none;
+}
+ul li a{
+    color: #051b28;
+}
+.message ul li a p{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+.order,.message{
+    background: #fff;
+    margin-bottom: 0.32rem;
+    border-bottom: 0.027rem solid #e7e7e7;
+}
+.order ul{
+    display: -webkit-box;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+.order ul li{
+    width: 2rem;
+    height: 1.75975rem;
+    text-align: center;
+}
+.order ul li a{
+    width: 0.9rem;
+    height: 1.04175rem;
+    display: block;
+    position: relative;
+    top: 0.359rem;
+    left: 0.4rem;
+    font-size: 0.3rem;
+}
+.order ul li div:first-of-type{
+    margin-bottom: 0.15rem;
+}
+.order ul li:last-of-type a{
+    width: 1.3285rem;
+}
+.order ul li:first-of-type a div:first-of-type,.order ul li:nth-of-type(2) a div:first-of-type{
+     background: url("../image/btn-1.gif") no-repeat;
+     margin-left: 0.2rem;
+     background-size: contain;
+     width: 0.55rem;
+     height:0.45rem;
+ }
+.order ul li:nth-of-type(2) a div:first-of-type{
+    background: url("../image/btn-2.gif") no-repeat;
+    background-size: contain;
+
+}
+.order ul li:nth-of-type(3) a div:first-of-type,.order ul li:last-of-type a div:first-of-type{
+    background: url("../image/btn-3.gif") no-repeat;
+    margin-left: 0.2rem;
+    background-size: contain;
+    width: 0.55rem;
+    height:0.5rem;
+}
+.order ul li:nth-of-type(4) a div:first-of-type{
+    background: url("../image/bnt-4.gif") no-repeat;
+    margin-left: 0.22rem;
+    background-size: contain;
+    width: 0.45rem;
+    height:0.5rem;
+}
+.order ul li:last-of-type a div:first-of-type{
+    background: url("../image/btn-5.gif") no-repeat;
+    margin-left: 0.42rem;
+    background-size: contain;
+}
+.act{
+    height: 1.067rem;
+    padding-left: 0.32rem;
+    border-top: 0.025rem solid #e7e7e7;
+    background: #fff;
+    line-height: 1.067rem;
+}
+.act a{
+    width: 100%;
+    display: -webkit-box;
+    color: #051b28;
+    text-decoration: none;
+}
+.act a .icon{
+    width: 0.667rem;
+    margin-right: 0.267rem;
+}
+.act a .icon .ico-cont span{
+    width: 0.65rem;
+    height: 0.675rem;
+    line-height: 0.675rem;
+    display: block;
+    background: url("../image/icon_03.gif")no-repeat;
+    background-size: contain;
+    border-radius: .053rem;
+    margin-top: 0.2rem;
+}
+.title{
+    width: 6.41375rem;
+    height: 1.066rem;
+}
+.title h1{
+    font-size: 0.4rem;
+    font-weight: 500;
+    width: 100%;
+}
+.sub{
+    font-size: 0.3rem;
+    color: #999;
+}
+.core .act{
+    box-sizing: border-box;
+    border: none;
+    height: 1.09075rem;
+}
+.core .act a .title{
+    border-bottom: 1px solid #e7e7e7;
+    width: 8.24375rem;
+}
+.core .act:first-of-type a .icon .ico-cont .icon-form{
+    background: url("../image/icon_06.gif")no-repeat;
+    background-size: contain;
+ }
+.core .act:nth-of-type(2) a .icon .ico-cont .icon-form{
+    background: url("../image/icon_08.gif")no-repeat;
+    background-size: contain;
+}
+.core .act:nth-of-type(3) a .icon .ico-cont .icon-form{
+    background: url("../image/icon_10.gif")no-repeat;
+    background-size: contain;
+}
+.core .act:last-of-type a .icon .ico-cont .icon-form{
+    background: url("../image/icon_12.gif")no-repeat;
+    background-size: contain;
+}
+.btnn span{
+    background: url("../image/btnn_03.gif")no-repeat;
+    background-size: contain;
+    width: 0.175rem;
+    height: 0.325rem;
+    display: block;
+    margin-top: 0.35rem;
+    margin-left: 0.125rem;
+}
+.core .btnn{
+    border-bottom: 1px solid #e7e7e7;
+}
+.core{
+    margin-bottom: 0.32rem;
+}
+.core:last-of-type .act:first-of-type a .icon .ico-cont .icon-form{
+    background: url("../image/icon_14.gif")no-repeat;
+    background-size: contain;
+}
+.core:last-of-type .act:last-of-type a .icon .ico-cont .icon-form{
+    background: url("../image/icon_16.gif")no-repeat;
+    background-size: contain;
+}
+footer{
+    background: #fff;
+    height: 1.147rem;
+    border-top: 0.025px solid #e7e7e7;
+    border-bottom: 0.025px solid #e7e7e7;
+    display: -webkit-box;
+}
+footer .nick{
+    padding: 0 .067rem 0 .32rem;
+    box-sizing: border-box;
+}
+footer div{
+    height: 1.147rem;
+    border-left: 1px solid #e7e7e7;
+    box-sizing: border-box;
+    -webkit-box-align: center;
+    display: -webkit-box;
+}
+footer .login,footer .nick{
+    width: 2.4875rem;
+    border: none;
+}
+footer .feedback,footer .pc{
+    width: 2.5125rem;
+}
+footer div a{
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 0.35rem;
+    color: #051b28;
+    height: 0.475rem;
+}
+footer .login a{
+    border-left: 1px solid #e7e7e7;
+}
